@@ -1,25 +1,30 @@
 # Python Intro
 
-A Python learning tool with beginner exercises in using variables, data structures and basic control flow.
+A Python learning tool with beginner exercises in using variables, data structures and basic control flow. Instructions and guidance given in comments in the file.
 
-Developed by [Ben Nuttall](http://bennuttall.com) for use in Raspberry Jams, STEM activities, Code Clubs, etc.
+Compatible with both Python2 and Python3.
 
-Designed to be compatible with both Python2 and Python3. This is important.
+## Contents
 
-Also designed to be PEP-8 compliant, to encourage good coding style.
+- Printing
+- Variables
+- Basic maths operators (add, subtract, multiply)
+- Basic variable types (strings, integers)
+- Concatenating strings
+- Casting an integer to a string
+- Booleans (True / False)
+- Inequalities (Greater Than / Less Than)
+- If/Else statements
+- Lists
+- List methods (append, extend)
+- Adding lists together with +
+- Sets
+- For Loops
+- Indexing strings
+- Splitting strings
+- Tuples
+- Dictionaries
 
 ## How to use
 
-Download this repository using the Downloads buttons (ZIP and TAR) above and extract the files. Then just edit & run ```intro.py```
-
-## License
-
-To the extent possible under law, Ben Nuttall has waived all copyright and related or neighboring rights to Python Intro. This work is published from: United Kingdom.
-
-This license means you can download it, copy it, change it, fork it, do whatever you want with it. If you teach, feel free to use it in your classes. Copying, sharing and redistributing this project is encouraged. Ideally you will share the GitHub URL so that you get updates to the project, but you are free to take a copy at any time and use that version. Please feel free to contribute to this project via a Pull Request on GitHub.
-
-## Issues and Pull Requests
-
-If you have an issue and don't know how to fix it, please file an issue on GitHub.
-
-If you would like to rephrase the wording or change the code, fork this project and file a pull request against the original repository which will be reviewed by the author.
+Go to [intro.py](https://raw.github.com/raspberrypilearning/python-intro/master/intro.py) and download the file (right click & save) then open the file in IDLE or IDLE3. Run the file with ```F5``` to see the output then go back to the code and read the instructions, edit away, save and run again.
