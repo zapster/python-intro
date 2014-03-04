@@ -1,6 +1,6 @@
 # Python Intro
 
-A Python learning tool with beginner exercises in using variables, data structures and basic control flow. Instructions and guidance given in comments in the file.
+A Python learning tool with beginner exercises in using variables, data structures and basic control flow. Instructions and guidance are given in comments in the file.
 
 Compatible with both Python2 and Python3.
 
