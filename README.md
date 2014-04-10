@@ -30,3 +30,13 @@ Also designed to be PEP-8 compliant to encourage good coding style.
 ## How to use
 
 Go to [intro.py](https://raw.github.com/raspberrypilearning/python-intro/master/intro.py) and download the file (right click & save) then open the file in IDLE or IDLE3. Run the file with `F5` to see the output then go back to the code and read the instructions, edit away, save and run again.
+
+## Licence
+
+Unless otherwise specified, everything in this repository is covered by the following license:
+
+![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+
+***Python Intro*** by [Ben Nuttall](http://bennuttall.com) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Based on a work at https://github.com/bennuttall/python-intro.
