@@ -2,9 +2,11 @@
 
 A Python learning tool with beginner exercises in using variables, data structures and basic control flow. Instructions and guidance are given in comments in the file.
 
-Compatible with both Python2 and Python3.
+![Python](images/python.jpg)
 
-Also designed to be PEP-8 compliant to encourage good coding style.
+Compatible with both Python 3 and Python 2.
+
+Also designed to be [PEP-8](http://legacy.python.org/dev/peps/pep-0008/) compliant to encourage good coding style.
 
 ## Contents
 
@@ -29,7 +31,13 @@ Also designed to be PEP-8 compliant to encourage good coding style.
 
 ## How to use
 
-Go to [intro.py](code/intro.py) and download the file (right click & save) then open the file in IDLE or IDLE3. Run the file with `F5` to see the output then go back to the code and read the instructions, edit away, save and run again.
+Run the command `wget http://goo.gl/0ZDOdX -O intro.py --no-check-certificate` and open with `idle3 intro.py &`.
+
+Run the file with `F5` to see the output then go back to the code and read the instructions, edit away, save and run again.
+
+## Python 2 or Python 3?
+
+The code works in both versions of Python, but Python 3 is recommended. Read about this in our [documentation](http://www.raspberrypi.org/documentation/usage/python/more.md).
 
 ## Licence
 
