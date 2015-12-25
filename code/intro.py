@@ -1,40 +1,56 @@
 # Welcome! This is a Python program file
+## Willkommen! Das ist eine Python Programm Datei
 
 # The lines that start with a hash (#) are comments
 # They are for you to read and are ignored by Python
+## Zeilen die mit einer Raute (#) anfangen sind Kommentare
+## Sie sind nur für dich zum Lesen und werden von Python ignoriert
 
 # When you see 'GO!', save and run the file to see the output
 # When you see a line starting with # follow the instructions
+## Wenn du 'GO!' siehst, speichere und führ das Programm aus um die Ausgaben zu sehen
+## Wenn eine Zeile mit # beginnt, folge den Anweisungen
 # Some lines are python code with a # in front
 # This means they're commented out - remove the # to uncomment
 # Do one challenge at a time, save and run after each one!
+## Manche Zeilen beinhalten Python Code und beginnen mit #
+## Das bedeutet der Code ist auskommentiert - entferene # damit die Zeile ausgeführt wird
 
 # 1. This is the print statement
+## 1. Das ist die print (deutsch: drucken/ausgeben) Anweisung
 
 print("Hello world")
 
 # GO!
+## GO!
 
 # 2. This is a variable
+## 2. Das ist eine Variable
 
 message = "Level Two"
 
 # Add a line below to print this variable
+## Füge eine Zeile ein um die Variable auszugeben
 
 # GO!
 
 # 3. The variable above is called a string
 # You can use single or double quotes (but must close them)
 # You can ask Python what type a variable is. Try uncommenting the next line:
+## 3. Die Variable oben ist eine Zeichenkette (engl: string)
+## Du kannst einfache ' oder doppelte " Anführungszeichen verwenden (aber du musst sie wieder schließen)
+## Du kannst Python fragen welchen Typ eine Variable hat. Entferen das Kommentarzeichen der folgenden Zeile:
 # print(type(message))
 # GO!
 
 # 4. Another type of variable is an integer (a whole number)
+# 4. An anderer Variablentyp ist eine Ganzzahl (engl: integer)
 a = 123
 b = 654
 c = a + b
 
 # Try printing the value of c below to see the answer
+## Gib den Wert der Variable c aus um die Antwort zu sehen
 # GO!
 
 # 5. You can use other operators like subtract (-) and multiply (*)
@@ -45,25 +61,39 @@ c = a + b
 # 12 times 4
 # 103 add 999
 
+## 5. Du kannst andere Operationen wie Subtraktion (-) oder Multiplikation (*) verwenden
+## Versuch es indem du die Wörter unten durch den richtigen Operator ersetzt
+
+# a mal b
+# b minus a
+# 12 mal 4
+# 103 plus 999
+
 # GO!
 
 # 6. Variables keep their value until you change it
+## 6. Variablen behalten ihren Wert bis du ihn wieder änderst
 
 a = 100
 # print(a)  # think - should this be 123 or 100?
+            ## überlege - sollte das Ergebnis 123 oder 100 sein?
 
 c = 50
 # print(c)  # think - should this be 50 or 777?
+            ## überlege - sollte das Ergebnis 50 oder 777 sein?
 
 d = 10 + a - c
 # print(d)  # think - what should this be now?
+            ## überlege - was ist nun das richtige Ergebnis?
 
 # GO!
 
 # 7. You can also use '+' to add together two strings
+## 7. Du kannst '+' auch benutzen um zwei Zeichenketten zu verknüpfen
 
 greeting = 'Hi '
 name = ''  # enter your name in this string
+           ## Gib hier deinen Namen ein
 
 message = greeting + name
 # print(message)
@@ -71,8 +101,10 @@ message = greeting + name
 # GO!
 
 # 8. Try adding a number and a string together and you get an error:
+## 8. Wenn du einen Zahl und eine Zeichenkette mit einem '+' verknüpfest bekommst du einen Fehler:
 
 # age =  # enter your age here (as a number)
+         ## gibt dein Alter als Zahl an
 
 # print(name + ' is ' + age + ' years old')
 
@@ -81,49 +113,65 @@ message = greeting + name
 # See the error? You can't mix types like that.
 # But see how it tells you which line was the error?
 # Now comment out that line so there is no error
+## Siehst du den Fehler? Du kannst die Typen nicht auf diese Art vermischen.
+## Aber Python sagt dir die Zeile wo der Fehler auftritt.
+## Kommentiere die Zeile aus sodass kein Fehler mehr auftritt.
 
 # 9. We can convert numbers to strings like this:
+## 9. Wir können Zahlen in Zeichenketten umwandeln, wie in der folgenden Zeile zu sehen ist:
 
 # print(name + ' is ' + str(age) + ' years old')
 
 # GO!
 
 # No error this time, I hope?
+## Diese mal solltest du keine Fehlermeldung sehen.
 
 # Or we could just make sure we enter it as a string:
+## Oder wir stellen einfach sicher das wir das Alter als Zeichenkette angeben
 
 # age =  # enter your age here, as a string
+         ## gibt dein Alter als Zeichenkette an
 
 # print(name + ' is ' + age + ' years old')
 
 # GO!
 
 # No error this time, I hope?
+## Diese mal solltest du keine Fehlermeldung sehen.
 
 # 10. Another variable type is called a boolean
 # This means either True or False
+## 10. Ein weiterer Typ ist ein Boolescher Wert (Logikwert; engl: boolean)
+## Das heißt er kann entweder Wahr (engl: True) oder Falsch (engl: False) sein
 
 raspberry_pi_is_fun = True
 raspberry_pi_is_expensive = False
 
 # We can also compare two variables using ==
+## Zwei Variablen können mit == verglichen werden
 
 bobs_age = 15
 # your_age =  # fill in your age
+              ## füge dein Alter ein
 
 # print(your_age == bobs_age)  # this prints either True or False
+                               ## gibt entweder True (für Wahr) oder False (für Falsch) aus
 
 # GO!
 
 # 11. We can use less than and greater than too - these are < and >
+## 11. Wir können auch 'kleiner als' und 'größer als' verwenden: die Operatoren sind < und >
 
 # bob_is_older = bobs_age > your_age
 
 # print(bob_is_older)  # do you expect True or False?
+                       ## Erwartest du True oder False?
 
 # GO!
 
 # 12. We can ask questions before printing with an if statement
+## 12. Die if-Anweisung können wir vor der Ausgabe Fragen stellen
 
 money = 500
 phone_cost = 240
@@ -138,16 +186,21 @@ else:
     message = "You can't afford both devices"
 
 # print(message)  # what do you expect to see here?
+                  ## Was glaubst du wird hier ausgegeben?
 
 # GO!
 
 # Now change the value of tablet_cost to 260 and run it again
 # What should the message be this time?
+## Ändere den Wert von tablet_cost auf 260 und führe das Programm nochmal aus
+## Was ist dieses Mal die Antwort?
 
 # GO!
 
 # Is this right? You might need to change the comparison operator to >=
 # This means 'greater than or equal to'
+## Stimmt das? Du musst vielleicht den Vergleichsoperator auf >= änderen
+## Das bedeutet 'größer oder gleich wie'
 
 raspberry_pi = 25
 pies = 3 * raspberry_pi
@@ -160,6 +213,7 @@ else:
     message = "You can't afford 3 raspberry pies"
 
 # print(message)  # what do you expect to see here?
+                  ## Was glaubst du wird hier ausgegeben?
 
 # GO!
 
